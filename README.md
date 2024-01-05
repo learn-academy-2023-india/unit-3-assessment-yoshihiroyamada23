@@ -38,21 +38,25 @@ PRs should be posted _before_ class begins on Tuesday, January 2, 2024.
 ### Interview Practice Questions
 
 1. What are three (3) syntax difference between HTML and JSX?
+ The three syntax difference between HTML and JSX are:
+ 1. To create class in HTML and JSX is when in HTML we use "class" where in JSX we use "classname"
+ 2. To create style in HTML and JSX is when in JSX we have to put it in "{{}}" and in HTML it is in a string ""
+ 3. In HTML we use <p>This is HTML paragraph</p> and in JSX <p>['This is JSX paragraph with "" ']</p>
 
 2. What is yarn? What file(s) are modified when you run the command yarn in your terminal?
-
+Yarn is a package for Javascript that has the responsibility of managing node modules. The files that are modified when we run the command yarn are node_modules, public, src.
 3. What is the difference between state values and props in React?
-
+The difference between state values and props in React is how state values are created using the ".useState()" method where it defines a variable and its initial value. State is used to store data in a react component. Props is a specialized tool in react for the communication of data and behavior between components. It is like the state values but in props, it doeesn't update the value.
 4. STRETCH (optional): What is the difference between a div tag and a span tag?
 
 ### Looking Ahead: Terms for Next Unit
 
 1. Object-oriented programming:
-
+It revolves around the concept of "objects" It has four main principles: encapsulation, inheritance, abstraction, and polymorphism. Encapsulation hides the internal details of the object and restricts access to certain aspects. Methods are defind in the class should interact with the internal state. Inheritance promotes code reusability and establishes a relationship between difference classes. The derived class can extend or override the functionalities of the base class. Abstraction allows developers to focus on high-level concers without worrying about low-level implementation details. It helps managing complexity. Polymorphism proves flexibility and allows a single interfact to represent different types of objeects. It is a key concept in achieving code extensibility.
 2. Ruby:
-
+Ruby is a general-purpose, interpreted, dynamically-typed, server-side scripting language. It has many helpful built in methods and great documentation.
 3. Ruby Hashes:
-
+Ruby hashes are hash keys that can be of any data types like strings, symbols, numbers,etc and the values can be any objects. They are created by using curly braces "{}" or "Hash.new".
 ---
 
 ### Assessment Review Process
